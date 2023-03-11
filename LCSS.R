@@ -5,8 +5,7 @@ library ("tidyverse")
 library ("googlesheets4")
 library ("rmarkdown")
 
-setwd("C:/Users/uriar/R Projects/gdplcu")
-#This was the name of the directory I used, you'll need to set your own
+setwd("YOUR WORK DIRECTORY HERE")
 
 library ("readxl")
 read_excel("LCSS_Data.xlsx", sheet=2)
